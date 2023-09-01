@@ -1,0 +1,192 @@
+head {
+  font-family: Tahoma;
+  width: 1000px;
+}
+
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Tahoma;
+  background-color: white;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(90, 90, 90);
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  text-shadow: 5px 5px 10px black;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu button {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: Tahoma;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.15s;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.menu-button
+{
+  width: 80px;
+  height: 40px;
+}
+
+.menu button:hover {
+  opacity: 0.8;
+}
+
+.menu button:active {
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  box-shadow: 2px 2px 5px black;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-project
+{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(132, 197, 255);
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.article {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.8;
+  align-items: center;
+  margin-left: 250px;
+  width: 900px;
+  gap: 20px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 2px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.article p
+{
+  text-align: center;
+}
+
+.article img
+{
+  max-width: 100%;
+}
+
+.article h2 {
+  margin-top: 0;
+}
+.article p{
+  font-size: 20px;
+}
+
+.image-one{
+  height: 300px;
+}
+
+.image-two{
+  height: 300px;
+  border-radius: 10px;
+}
+
+.image-three{
+  height: 300px;
+}
+
+.image-four {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.image-five{
+  height: 350px;
+}
+
+.image-six{
+  height: 300px;
+}
